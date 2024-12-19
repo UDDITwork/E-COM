@@ -1,8 +1,43 @@
-# React + Vite
+# YADUANSHI BRAND OUTLET E-commerce Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern e-commerce website built with React for YADUANSHI BRAND OUTLET, featuring a responsive design and seamless shopping experience.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Responsive design optimized for all devices
+- Product catalog with category filtering
+- Shopping cart functionality
+- Wishlist feature
+- Product quick view
+- Image slider for promotions
+- Size guide
+- Contact form
+- Interactive mega menu
+
+## Technology Stack
+
+- React
+- Vite
+- React Router
+- Modern CSS
+
+## Getting Started
+
+1. Clone the repository
+2. Install dependencies: `npm install`
+3. Run development server: `npm run dev`
+4. Build for production: `npm run build`
+
+## Author
+
+**UDDIT**
+- Student at MNIT Jaipur
+- Contact: 7456886877
+- GitHub: [@UDDITwork](https://github.com/UDDITwork)
+- LinkedIn: [lorduddit](https://linkedin.com/in/lorduddit)
+
+## License
+
+This project is private and unauthorized use, distribution, or modification is not permitted without explicit permission.
+
+© 2024 UDDIT. All Rights Reserved.
