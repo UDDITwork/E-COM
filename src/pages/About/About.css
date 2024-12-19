@@ -1,0 +1,163 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .about-container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Hero Banner */
+  .hero-banner {
+    background: linear-gradient(135deg, #4a1625, #a23e48);
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+  }
+  
+  .hero-banner h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Our Story Section */
+  .our-story-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    align-items: center;
+  }
+  
+  .image-container {
+    position: relative;
+  }
+  
+  .store-image {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .store-image:hover {
+    transform: scale(1.05);
+  }
+  
+  .story-content h2 {
+    font-size: 1.8rem;
+    color: #4a1625;
+    margin-bottom: 1rem;
+  }
+  
+  .story-content p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  /* Why Choose Us Section */
+  .why-choose-us {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .why-choose-us h2 {
+    font-size: 2rem;
+    color: #4a1625;
+    margin-bottom: 1.5rem;
+  }
+  
+  .features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .feature-box {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    text-align: center;
+  }
+  
+  .feature-box h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #a23e48;
+  }
+  
+  .feature-box p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .feature-box:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Visit Our Store Section */
+  .visit-store {
+    text-align: center;
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .visit-store h2 {
+    font-size: 1.8rem;
+    color: #4a1625;
+    margin-bottom: 1rem;
+  }
+  
+  .visit-store p {
+    font-size: 1.1rem;
+    margin: 0.5rem 0;
+    color: #333;
+  }
+  
+  .map-container {
+    margin-top: 1.5rem;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  iframe {
+    width: 100%;
+    height: 450px;
+    border: none;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .hero-banner h1 {
+      font-size: 2rem;
+    }
+  
+    .our-story-section {
+      grid-template-columns: 1fr;
+    }
+  
+    .store-image {
+      height: 300px;
+    }
+  }
+  
